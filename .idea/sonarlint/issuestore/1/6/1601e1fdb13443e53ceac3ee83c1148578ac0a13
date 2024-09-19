@@ -1,0 +1,9 @@
+
+´
+java:S1130."lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(®Ôëóûÿÿÿÿ8ê¶ù•ş1J$3ff03952-1add-41d6-bcef-2cbccd9a5851
+–
+java:S6244T"SConsider using the Consumer Builder method instead of creating this nested builder.(º¾ş…8ğ¶ù•ş1J$5e6e296c-6e04-4f3c-88da-543110e48c06
+–
+java:S6244Y"SConsider using the Consumer Builder method instead of creating this nested builder.(ıÉÅÎ8ò¶ù•ş1J$9945340b-1c5c-43df-bb4d-099bc37381a4
+•
+java:S6244X"SConsider using the Consumer Builder method instead of creating this nested builder.(öÌ°f8ò¶ù•ş1J$9a830586-0682-497f-9545-f95e06f82140

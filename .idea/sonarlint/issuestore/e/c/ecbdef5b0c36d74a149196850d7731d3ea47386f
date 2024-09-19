@@ -1,0 +1,17 @@
+
+r
+java:S37407"/Provide the parametrized type for this generic.(ÒËàˆ8Û¼—î2J$8d9e8481-ffb9-4a10-a4d0-cda8f21ac21e
+r
+java:S3740D"/Provide the parametrized type for this generic.(Ù¨€—8Û¼—î2J$aeaf05f9-b6d3-45bd-b980-01317800d40b
+r
+java:S3740J"/Provide the parametrized type for this generic.(¸á×8Û¼—î2J$15d54a9b-d569-4a2c-a8f6-a8d6d1a7e5ba
+q
+java:S1905^")Remove this unnecessary cast to "double".(·³öÿÿÿÿÿ8ñ¼—î2J$141f1914-9d13-48da-8d87-da603978297d
+Š
+java:S6201_"BReplace this instanceof check and cast with 'instanceof Long long'(ÇïíŸüÿÿÿÿ8ò¼—î2J$4895ced3-7151-4846-b7d0-aba619a1bb49
+q
+java:S1905c")Remove this unnecessary cast to "double".(ÙƒÔÿÿÿÿÿ8ó¼—î2J$e9c8aacd-937e-453a-b95f-5a4634f2521f
+‰
+java:S6201e"FReplace this instanceof check and cast with 'instanceof Double double'(„Ê‰ú8ó¼—î2J$4658720b-5c5e-4c43-96c7-fe29604e58a9
+‰
+java:S6201g"FReplace this instanceof check and cast with 'instanceof String string'(Ğ»µÈ8ó¼—î2J$59245c75-3ea5-41b1-9078-6a6599ece845

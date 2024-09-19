@@ -1,0 +1,65 @@
+
+x
+java:S3740Ñ"/Provide the parametrized type for this generic.(ŞÏµºúÿÿÿÿ8“ÛÕ¨‹2J$e84253a1-8594-4fd5-91fd-00a9d9f4177a
+s
+java:S3740î"/Provide the parametrized type for this generic.(‹“ğÒ8¨‡Š2J$3f9e0e1d-b40b-426c-8de6-7e704abbcca0
+x
+java:S3740·"/Provide the parametrized type for this generic.(”÷Ÿ¸øÿÿÿÿ8¨‡Š2J$9fa8df0b-58ba-4ecd-88ad-0df250103776
+s
+java:S3740Ø"/Provide the parametrized type for this generic.(ÙùŸÜ8¨‡Š2J$4cd874db-0eff-4947-b203-5bd39558012a
+Œ
+java:S6208ù"CMerge the previous cases into this one using comma-separated label.(³üğ²ÿÿÿÿÿ8ª‡Š2J$0b5e3878-0efa-4d68-bde3-3b205a7b5ec3
+R
+java:S1066Œ"/Merge this if statement with the enclosing one.(¢òŞ•ÿÿÿÿÿ8ü²ï†œ2
+~
+java:S1141ï"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8­‡Š2J$dbd7b39e-37ca-4c23-bd6a-cc6a89bb9b50
+Ä
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯Ò»µ8ô’‡Š2J$81c87250-ec9d-4e27-8f00-71860baf501e
+`
+java:S1118"Hide this public constructor.(¯Ò»µ8÷’‡Š2J$2fb8b008-0fd4-4832-96d2-8284b53f7d77
+•
+java:S3776!"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(õÉĞç8Î½Ö¨‹2J$8561e9e5-1130-4a12-9213-3d2483217b1c
+
+java:S62012"KReplace this instanceof check and cast with 'instanceof String stringValue'(Ğ»µÈ8¨İÕ¨‹2J$3f0cc3ed-c9e4-4eb2-914c-ff5e658fe550
+—
+java:S6201D"OReplace this instanceof check and cast with 'instanceof Document innerDocument'(¢®çÜøÿÿÿÿ8Ò½Ö¨‹2J$862fdfd8-cda7-461c-9bd4-208a34488f4d
+w
+java:S1611q"/Remove the parentheses around the "i" parameter(Êè‘ƒûÿÿÿÿ8›“‡Š2J$425a0277-f15d-4310-9de7-d93dadfbee96
+›
+java:S1602q"SRemove useless curly braces around statement and then remove useless return keyword(Êè‘ƒûÿÿÿÿ8²“‡Š2J$4ded1ea8-c495-4665-a706-5dbfd92589d2
+v
+java:S1172"2Remove this unused method parameter "keyIterator".(×Óà8Éı…•š2J$cf28cefc-7868-4882-9a61-a9433a6c27ab
+
+java:S6201®"KReplace this instanceof check and cast with 'instanceof String stringValue'(¾°éX8´Å¶›2J$edea00b7-08ea-40f4-9316-75c3ae6a6270
+˜
+java:S6201¶"OReplace this instanceof check and cast with 'instanceof Document innerDocument'(÷á“åúÿÿÿÿ8µÅ¶›2J$c1ef224b-1a59-488c-9dec-b235fb7c27b7
+‡
+java:S1611É">Remove the parentheses around the "nonEmptyProperty" parameter(õ¤õûşÿÿÿÿ8²“‡Š2J$a2eb799b-f64d-4785-b1c2-8d21cfe25ce8
+s
+java:S1611Ğ"/Remove the parentheses around the "k" parameter(°†¤Å8­İÕ¨‹2J$bd0e1dd5-2426-4c53-8a48-0610691b88e7
+—
+java:S1602Ğ"SRemove useless curly braces around statement and then remove useless return keyword(°†¤Å8­İÕ¨‹2J$c4720cbc-7b46-4cd2-91b4-a5e7ad4ab207
+–
+java:S3776ì"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(Óûßó8Ÿ“‡Š2J$f3fe7210-20e4-4a6c-ab33-7c945e267e2b
+”
+java:S6201"KReplace this instanceof check and cast with 'instanceof String stringValue'(¿Ô°¤ùÿÿÿÿ8ÿ½Ö¨‹2J$8cfdadf2-63b8-4af9-9ef0-a1925abffffc
+†
+java:S6201´"BReplace this instanceof check and cast with 'instanceof List list'(¥ë×¼8¨“‡Š2J$40518b9c-31a4-4525-9a9b-c7f4a19e2b62
+†
+java:S6201Å"BReplace this instanceof check and cast with 'instanceof List list'(¥ë×¼8ª“‡Š2J$75a3b1fc-dc3d-41a5-9785-2a9767d402b8
+›
+java:S3776Ô"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(£ÂËüÿÿÿÿ8¬“‡Š2J$45be8c40-9ee4-48f2-9cbd-dae246a9985d
+|
+java:S1172Ô"3Remove this unused method parameter "propertyName".(£ÂËüÿÿÿÿ8®“‡Š2J$db52ba47-cb89-4355-9c81-d7796022bb4f
+s	java:S106×"+Replace this use of System.out by a logger.(÷Íšôùÿÿÿÿ8°“‡Š2J$3dd11cae-9799-4674-9169-58b8ce0d3c34
+n	java:S106Ù"+Replace this use of System.out by a logger.(Ô¢ÔË8°“‡Š2J$cd40eee7-643b-4f0c-9d70-9963eab63eb9
+|
+java:S1611à"9Remove the parentheses around the "stringValue" parameter(¤ÀŠ&8„¾Ö¨‹2J$74e95732-f48b-49e3-adc4-23adb5257b73
+–
+java:S1602à"SRemove useless curly braces around statement and then remove useless return keyword(¤ÀŠ&8…¾Ö¨‹2J$3e767980-529d-4b26-9b92-78ce0c48c063
+m
+java:S1068"*Remove this unused "LOGGER" private field.(ò¬¦8»“‡Š2J$0016a149-3ed6-4029-8866-0962072d4e1e
+‰
+java:S6541!"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 68 to 64, Complexity from 17 to 14, Nesting Level from 3 to 2, Number of Variables from 23 to 6.(õÉĞç8‰¾Ö¨‹2J$b72ad9b0-13ee-4b27-8f15-512460fabd14
+Š
+java:S6541ì"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 98 to 64, Complexity from 22 to 14, Nesting Level from 3 to 2, Number of Variables from 18 to 6.(Óûßó8½“‡Š2J$7566d528-ab5e-4b59-8c6f-f1d7d20bb016

@@ -1,0 +1,11 @@
+
+´
+java:S1130+"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(®Ôëóûÿÿÿÿ8õšÑêş1J$a1a699c6-11e1-40eb-8fa4-7e4f5bd226c4
+p
+java:S1172/"-Remove this unused method parameter "region".(”¼ÏÇ8÷ÆŒ˜ş1J$c48e9b78-e464-4ff2-87b1-ee9a171b8624
+’
+java:S1854M"JRemove this useless assignment to local variable "createTemplateResponse".(æí—ùÿÿÿÿ8ï‹—ş1J$6b1c561e-84f4-4ae9-ae29-d8112dd993cf
+–
+java:S6244G"SConsider using the Consumer Builder method instead of creating this nested builder.(­ÍË€8úšÑêş1J$dcd58efd-8c7b-4037-b0ea-ea02968086e4
+ƒ
+java:S1481M";Remove this unused "createTemplateResponse" local variable.(æí—ùÿÿÿÿ8Ÿï‹—ş1J$1d3cdd86-e294-4d8f-8990-033945f0aaa0

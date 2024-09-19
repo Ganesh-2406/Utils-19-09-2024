@@ -1,0 +1,13 @@
+
+	java:S112f"FDefine and throw a dedicated exception instead of using a generic one.(şƒ¿øÿÿÿÿ8®ßÆ„2J$858ead7c-0b18-41ca-9595-5ee12308ada4
+Ç
+java:S1192M"ƒDefine a constant instead of duplicating this literal "Mongo exception occurred while fetching document and exception is " 3 times.(¦ÊÛ¡8¶ûË½‡2J$3964671f-0b73-443b-8f7e-bb8cee81b6a0
+Ç
+java:S1192r"ƒDefine a constant instead of duplicating this literal "Mongo exception occurred while updating document and exception is " 4 times.(ÌÁÌà8‚ú€á‰2J$0e2f979d-aa62-48f5-b030-0d666f1b630f
+½
+java:S1192L"uDefine a constant instead of duplicating this literal "Mongo exception occurred while fetching document {} " 3 times.(àî¬Õıÿÿÿÿ8¸ûË½‡2J$ea1bbd41-b298-4d29-84c4-703405465004
+v
+java:S1199ª"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8¿ûË½‡2J$2ab77392-e046-4829-93f3-d43954e41569
+l
+java:S1168X"$Return an empty map instead of null.(‰„íÿÿÿÿÿÿ8›¹êÅ2J$9dbd1b51-77c1-465c-899e-a93a978e8ef6
+r	java:S106e"+Replace this use of System.err by a logger.(şäğşøÿÿÿÿ8ŞßÆ„2J$b1b84366-374a-47e3-b04c-0b41f4a5f5b1

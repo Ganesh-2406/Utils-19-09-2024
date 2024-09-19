@@ -1,0 +1,24 @@
+
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(È¹¶µ8äÔûê‡2
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ÍİÕç8åÔûê‡2
+g	java:S112E"FDefine and throw a dedicated exception instead of using a generic one.(«í­¶ıÿÿÿÿ8üÙ±áœ2
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(É¿µ®üÿÿÿÿ8ğÕûê‡2
+\
+java:S1118":Add a private constructor to hide the implicit public one.(Âşóßøÿÿÿÿ8òÕûê‡2
+t
+java:S2737"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8öÕûê‡2
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ÍİÕç8ùÕûê‡2
+t
+java:S2737="WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8†Û±áœ2
+t
+java:S2737d"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û8ˆÛ±áœ2
+z
+java:S1128"XRemove this unused import 'in.edu.kristujayanti.propertyBinder.KJUSYSCommonKeysPBinder'.(ïöúÿÿÿÿ8€Öûê‡2
+Z
+java:S1128"8Remove this unused import 'io.vertx.core.buffer.Buffer'.(àÜ­»üÿÿÿÿ8ŠÛ±áœ2
+L
+java:S1128
+"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ8€Öûê‡2
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Öûê‡2

@@ -1,0 +1,7 @@
+
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Åì²	8–µ2J$f1f7b202-b928-4cc3-845f-513fe4725b25
+†
+java:S1144A"CRemove this unused private "ERPUserProfileKeysPBinder" constructor.(úİüª8›µ2J$225eb5ec-1dd5-4922-8ca3-eaaa2e6a2e58
+o
+java:S1144f",Remove this unused private "$values" method.(‰®¦Œ8›µ2J$80d6fd68-fbd2-4458-b4ce-5c6de592f099
+	java:S100f"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰®¦Œ8¡µ2J$049573c8-7949-4df7-9239-b62895939dae
