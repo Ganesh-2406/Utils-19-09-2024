@@ -33,6 +33,8 @@ public enum LibraryCommonKeysPBinder implements KJUSYSPropertyBinder {
 
     MEMBERSHIP_TYPE("authRoles_AuthCommon_TextArray", "MEMBERSHIP Type", String.class);
 
+
+
     private final String property;
     private final String label;
     private final Class<?> dataType;

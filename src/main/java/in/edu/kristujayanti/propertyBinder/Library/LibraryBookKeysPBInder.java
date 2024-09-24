@@ -4,21 +4,6 @@ import in.edu.kristujayanti.propertyBinder.KJUSYSPropertyBinder;
 
 public enum LibraryBookKeysPBInder implements KJUSYSPropertyBinder {
 
-
-    /*
-    BOOK_ACCESSION_TYPE
-    BOOK_SECTION
-    BOOK_SUBJECT1
-    BOOK_PUBLISHER
-    BOOK_SUBJECT2
-    BOOK_VENDOR
-    BOOK_CURRENCY_TYPE
-    BOOK_SOURCE
-    BOOK_DEPARTMENT
-    BOOK_CATEGORY
-     */
-
-//Accession Id or no
     ACCESSION_ID("accessionId_LibraryBook_Text", "Accession Id", String.class),
     ACCESSION_TYPE("accessionType_LibraryBook_Text", "Accession Type", String.class),
     ACCESSION_ITEM_SAME_AS_ACCESSION_ID("accessionItemSameAsAccessionId_LibraryBook_Text", "Accession Item Same As Accession Id", String.class),
@@ -27,7 +12,7 @@ public enum LibraryBookKeysPBInder implements KJUSYSPropertyBinder {
     ACCESSION_VOLUME("accessionVolume_LibraryBook_Text", "Accession Volume", String.class),
     ACCESSION_SERIES("accessionSeries_LibraryBook_Text", "Accession Series", String.class),
     ACCESSION_KEYWORDS("accessionKeywords_LibraryBook_Text", "Accession Keywords", String.class),
-    ACCESSION_SUBJECT1("accessionSubject1_LibraryBook_Text", "Accession Subject1", String.class),
+    ACCESSION_SUBJECT_1("accessionSubject1_LibraryBook_Text", "Accession Subject1", String.class),
     ACCESSION_CLASS_NO("accessionClassNo_LibraryBook_Text", "Accession Class No", String.class),
     ACCESSION_CALL_NO("accessionCallNo_LibraryBook_Text", "Accession Call No", String.class),
     ACCESSION_PUBLISHER("accessionPublisher_LibraryBook_Text", "Accession Publisher", String.class),
@@ -35,12 +20,13 @@ public enum LibraryBookKeysPBInder implements KJUSYSPropertyBinder {
 
     ACCESSION_SECTION("accessionSection_LibraryBook_Text", "Accession Section", String.class),
     ACCESSION_SUB_TITTLE("accessionSubTittle_LibraryBook_Text", "Accession Sub Tittle", String.class),
-    ACCESSION_EDITORS("accessionEditor_LibraryBook_Text", "Accession Editor", String.class),
+    ACCESSION_EDITORS("accessionEditors_LibraryBook_Text", "Accession Editors", String.class),
     ACCESSION_LANGUAGE("accessionLanguage_LibraryBook_Text", "Accession Language", String.class),
     ACCESSION_ISBN("accessionIsbn_LibraryBook_Text", "Accession Isbn", String.class),
     ACCESSION_SOFT_COPY("accessionSoftCopy_LibraryBook_Text", "Accession Soft Copy", String.class),
-    ACCESSION_SUBJECT2("accessionSubject2_LibraryBook_Text", "Accession Subject2", String.class),
+    ACCESSION_SUBJECT_2("accessionSubject2_LibraryBook_Text", "Accession Subject2", String.class),
     ACCESSION_IMAGE("accessionImage_LibraryBook_Text", "Accession Image", String.class),
+    ACCESSION_IMAGE_PATH("accessionImagePath_LibraryBook_Text", "Accession Image Path", String.class),
     ACCESSION_RESPONSIBILITY("accessionResponsibility_LibraryBook_Text", "Accession Responsibility", String.class),
     ACCESSION_YEAR("accessionYear_LibraryBook_Long", "Accession Year", Long.class),
 
@@ -54,7 +40,7 @@ public enum LibraryBookKeysPBInder implements KJUSYSPropertyBinder {
     ACCESSION_BINDING_TYPE("accessionBindingType_LibraryBook_Text", "Accession Binding Type", String.class),
 
     ACCESSION_BILL_NO("accessionBillNo_LibraryBook_Text", "Accession Bill No", String.class),
-    ACCESSION_BILL_DATE("accessionBillDate_LibraryBook_Long", "Accession Bill Date", Long.class),
+    ACCESSION_BILL_DATE("accessionBillDate_LibraryBook_Date", "Accession Bill Date", Long.class),
     ACCESSION_PAGES("accessionPages_LibraryBook_Int", "Accession Pages", Integer.class),
     ACCESSION_COST("accessionCost_LibraryBook_Double", "Accession Cost", Double.class),
     ACCESSION_DISCOUNT("accessionDiscount_LibraryBook_Double", "Accession Discount", Double.class),
@@ -62,7 +48,21 @@ public enum LibraryBookKeysPBInder implements KJUSYSPropertyBinder {
     ACCESSION_CATEGORY("accessionCategory_LibraryBook_Text", "Accession Category", String.class),
     ACCESSION_EDITION("accessionEdition_LibraryBook_Int", "Accession Edition", Integer.class),
     ACCESSION_LOCATION("accessionLocation_LibraryBook_Text", "Accession Location", String.class),
-    ACCESSION_ENTRY_DATE("accessionEntryDate_LibraryBook_Long", "Accession Entry Date", long.class);
+    ACCESSION_ENTRY_DATE("accessionEntryDate_LibraryBook_Date","Accession Entry Date", Long.class),
+    ACCESSION_IN_LIBRARY("accessionInLibrary_LibraryBook_Bool","Accession In Library", Boolean.class),
+    NUMBER_OF_ACCESSION_COPIES("numberOfAccessionCopies_LibraryBook_Long","Number Of Accession Copies", Long.class),
+    ACCESSION_ADDED_TO_DB_DATE("accessionAddedToDBDate_LibraryBook_Date","Accession Added To DB Date", Long.class),
+    ACCESSION_MODIFIED_DATE("accessionModifiedDate_LibraryBook_Date","Accession Modified Date", Long.class),
+
+    ACCESSION_BORROWED_COUNT("accessionBorrowedCount_LibraryBook_Int","Accession Borrowed Count", Integer.class),
+    ACCESSION_HELD_BY_MEMBER("accessionHeldByMember_LibraryBook_Text","Accession Held By Member", String.class),
+    ACCESSION_TRANSACTION_ID("accessionTransactionId_LibraryBook_Text","Accession Transaction Id", String.class),
+    ACCESSION_ISSUE_DATE("accessionIssueDate_LibraryBook_Long","Accession Issue Date", Long.class),
+    ACCESSION_ISSUE_TIME("accessionIssueTime_LibraryBook_Long","Accession Issue Time", Long.class),
+    ACCESSION_DUE_DATE("accessionDueDate_LibraryBook_Long","Accession Due Date", Long.class),
+    ACCESSION_RETURN_DATE("accessionReturnDate_LibraryBook_Long","Accession Return Date", Long.class),
+    ACCESSION_ISSUE_TYPE("accessionIssueType_LibraryBook_Text","Accession Issue Type", String.class),
+    ACCESSION_OVERDUE_FINE("accessionOverDueFine_LibraryBook_Double","Accession Over Due Fine", Double.class),;
 
     private final String property;
     private final String label;
@@ -107,8 +107,8 @@ public enum LibraryBookKeysPBInder implements KJUSYSPropertyBinder {
     }
 
     // $FF: synthetic method
-    private static LibraryCheckInAndOutKeysPBinder[] $values() {
-        return LibraryCheckInAndOutKeysPBinder.class.getEnumConstants();
+    private static LibraryBookKeysPBInder[] $values() {
+        return LibraryBookKeysPBInder.class.getEnumConstants();
     }
 }
 

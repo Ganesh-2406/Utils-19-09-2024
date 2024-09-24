@@ -74,7 +74,7 @@ public final class ImageFileUploadUtils {
                 if (fileUpload.name().equals(uploadProperty)) {
                     String uploadedFile = fileUpload.uploadedFileName();
                     Path source = Paths.get(uploadedFile);
-                    String uploadedFileName = imageUploadPath + fileName + fileUpload.fileName();
+                    String uploadedFileName = imageUploadPath + fileName;
                     Path target = Paths.get(uploadedFileName);
 
                     try {

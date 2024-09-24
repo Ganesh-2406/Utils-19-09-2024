@@ -340,9 +340,7 @@ public class DocumentParser {
     private static String dataLengthAndEnumTypeIsValid(Object value, String[] propertySplitWithUnderScore, String propertyName) {
         String enumValue = getEnumValue(propertySplitWithUnderScore[0]);
         int enumIndex =  1;
-        System.out.println("enumValue "+enumValue);
         Class enumClass = PropertyEnumRegistry.getEnumClass(propertySplitWithUnderScore[enumIndex]);
-        System.out.println("enumClass "+enumClass);
 
         try {
             KJUSYSPropertyBinder kjusysPropertyBinder = (KJUSYSPropertyBinder) Enum.valueOf(enumClass, enumValue);
