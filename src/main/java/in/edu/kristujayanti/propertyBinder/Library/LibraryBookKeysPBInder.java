@@ -2,9 +2,12 @@ package in.edu.kristujayanti.propertyBinder.Library;
 
 import in.edu.kristujayanti.propertyBinder.KJUSYSPropertyBinder;
 
+import java.util.List;
+
 public enum LibraryBookKeysPBInder implements KJUSYSPropertyBinder {
 
     ACCESSION_ID("accessionId_LibraryBook_Text", "Accession Id", String.class),
+    ACCESSION_IDS("accessionIds_LibraryBook_TextArray", "Accession IDs", List.class),
     ACCESSION_TYPE("accessionType_LibraryBook_Text", "Accession Type", String.class),
     ACCESSION_ITEM_SAME_AS_ACCESSION_ID("accessionItemSameAsAccessionId_LibraryBook_Text", "Accession Item Same As Accession Id", String.class),
     ACCESSION_TITTLE("accessionTittle_LibraryBook_Text", "Accession Tittle", String.class),

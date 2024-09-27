@@ -31,7 +31,11 @@ public enum LibraryCommonKeysPBinder implements KJUSYSPropertyBinder {
     STUDENT_EMAIL("studentEmail_ERPStudentUserProfile_Text", "Student Email", String.class),
     STUDENT_PROFILE_IMAGE_FILE_PATH("studentImageFilePath_ERPStudentUserProfile_Text", "Student Image File Path", String.class),
 
-    MEMBERSHIP_TYPE("authRoles_AuthCommon_TextArray", "MEMBERSHIP Type", String.class);
+    MEMBERSHIP_TYPE("authRoles_AuthCommon_TextArray", "MEMBERSHIP Type", String.class),
+    MAX_ISSUE_DAYS("max_issue_days_LibraryCommon_Integer", "MAX ISSUE DAYS", Integer.class),
+    MAX_BOOK_ISSUE_COUNT("max_book_issue_count_LibraryCommon_Integer", "MAX BOOK ISSUE COUNT", Integer.class),
+    STUDENT_ACTIVE_STATUS("status", "Student Active Status", Boolean.class),
+    EMPLOYEE_ACTIVE_STATUS("employeeActiveStatus_ERPStaffUserProfile_Bool", "Employee Active Status", Boolean.class);
 
 
 
