@@ -2,9 +2,12 @@ package in.edu.kristujayanti.propertyBinder.Library;
 
 import in.edu.kristujayanti.propertyBinder.KJUSYSPropertyBinder;
 
+import java.util.List;
+
 public enum LibraryBookKeysPBInder implements KJUSYSPropertyBinder {
 
     ACCESSION_ID("accessionId_LibraryBook_Text", "Accession Id", String.class),
+    ACCESSION_IDS("accession_ids_LibraryBook_Text", "Accession IDs", List.class),
     ACCESSION_TYPE("accessionType_LibraryBook_Text", "Accession Type", String.class),
     ACCESSION_ITEM_SAME_AS_ACCESSION_ID("accessionItemSameAsAccessionId_LibraryBook_Text", "Accession Item Same As Accession Id", String.class),
     ACCESSION_TITTLE("accessionTittle_LibraryBook_Text", "Accession Tittle", String.class),
@@ -53,6 +56,7 @@ public enum LibraryBookKeysPBInder implements KJUSYSPropertyBinder {
     NUMBER_OF_ACCESSION_COPIES("numberOfAccessionCopies_LibraryBook_Long","Number Of Accession Copies", Long.class),
     ACCESSION_ADDED_TO_DB_DATE("accessionAddedToDBDate_LibraryBook_Date","Accession Added To DB Date", Long.class),
     ACCESSION_MODIFIED_DATE("accessionModifiedDate_LibraryBook_Date","Accession Modified Date", Long.class),
+    ACCESSION_DEACTIVATED_ON_DATE("accessionDeactivatedOnDate_LibraryBook_Date","Accession Deactivated On Date", Long.class),
 
     ACCESSION_BORROWED_COUNT("accessionBorrowedCount_LibraryBook_Int","Accession Borrowed Count", Integer.class),
     ACCESSION_HELD_BY_MEMBER("accessionHeldByMember_LibraryBook_Text","Accession Held By Member", String.class),
@@ -63,6 +67,8 @@ public enum LibraryBookKeysPBInder implements KJUSYSPropertyBinder {
     ACCESSION_RETURN_DATE("accessionReturnDate_LibraryBook_Long","Accession Return Date", Long.class),
     ACCESSION_ISSUE_TYPE("accessionIssueType_LibraryBook_Text","Accession Issue Type", String.class),
     ACCESSION_OVERDUE_FINE("accessionOverDueFine_LibraryBook_Double","Accession Over Due Fine", Double.class),;
+
+
 
     private final String property;
     private final String label;
