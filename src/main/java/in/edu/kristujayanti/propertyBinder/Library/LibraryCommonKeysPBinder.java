@@ -36,9 +36,9 @@ public enum LibraryCommonKeysPBinder implements KJUSYSPropertyBinder {
 
     MEMBERSHIP_TYPE("authRoles_AuthCommon_TextArray", "MEMBERSHIP Type", String.class),
 
-    MAX_ISSUE_DAYS("max_issue_days_LibraryCommon_Integer", "MAX ISSUE DAYS", Integer.class),
-    MAX_BOOK_ISSUE_COUNT("max_book_issue_count_LibraryCommon_Integer", "MAX BOOK ISSUE COUNT", Integer.class),
-    DAILY_FINE_MULTIPLIER("daily_fine_multiplier_LibraryCommon_Integer", "DAILY FINE MULTIPLIER", Integer.class),
+    MAX_ISSUE_DAYS("maxIssueDays_LibraryCommon_Integer", "Max Issue Days", Integer.class),
+    MAX_BOOK_ISSUE_COUNT("maxBookIssueCount_LibraryCommon_Integer", "Max Book Issue Count", Integer.class),
+    DAILY_FINE_MULTIPLIER("dailyFineMultiplier_LibraryCommon_Integer", "Daily Fine Multiplier", Integer.class),
 
     AG_GRID_PAGE_NO("agGridPageNo_LibraryCommon_Int","AG Grid Page No", Integer.class),
     AG_GRID_DATA_ROW_COUNT("agGridDataRowCount_LibraryCommon_Int","AG Grid Data Row Count", Integer.class),
