@@ -7,7 +7,7 @@ import java.util.List;
 public enum LibraryBookKeysPBInder implements KJUSYSPropertyBinder {
 
     ACCESSION_ID("accessionId_LibraryBook_Text", "Accession Id", String.class),
-    ACCESSION_IDS("accession_ids_LibraryBook_Text", "Accession IDs", List.class),
+    ACCESSION_IDS("accessionIds_LibraryBook_TextArray", "Accession IDs", List.class),
     ACCESSION_TYPE("accessionType_LibraryBook_Text", "Accession Type", String.class),
     ACCESSION_ITEM_SAME_AS_ACCESSION_ID("accessionItemSameAsAccessionId_LibraryBook_Text", "Accession Item Same As Accession Id", String.class),
     ACCESSION_TITTLE("accessionTittle_LibraryBook_Text", "Accession Tittle", String.class),
@@ -67,8 +67,6 @@ public enum LibraryBookKeysPBInder implements KJUSYSPropertyBinder {
     ACCESSION_RETURN_DATE("accessionReturnDate_LibraryBook_Long","Accession Return Date", Long.class),
     ACCESSION_ISSUE_TYPE("accessionIssueType_LibraryBook_Text","Accession Issue Type", String.class),
     ACCESSION_OVERDUE_FINE("accessionOverDueFine_LibraryBook_Double","Accession Over Due Fine", Double.class),;
-
-
 
     private final String property;
     private final String label;
