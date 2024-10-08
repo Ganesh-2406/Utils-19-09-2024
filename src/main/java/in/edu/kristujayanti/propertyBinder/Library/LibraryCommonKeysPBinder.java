@@ -38,11 +38,16 @@ public enum LibraryCommonKeysPBinder implements KJUSYSPropertyBinder {
 
     MAX_ISSUE_DAYS("maxIssueDays_LibraryCommon_Integer", "Max Issue Days", Integer.class),
     MAX_BOOK_ISSUE_COUNT("maxBookIssueCount_LibraryCommon_Integer", "Max Book Issue Count", Integer.class),
-    DAILY_FINE_MULTIPLIER("dailyFineMultiplier_LibraryCommon_Integer", "Daily Fine Multiplier", Integer.class),
+    DAILY_FINE_MULTIPLIER("dailyFineMultiplier_LibraryCommon_Double", "Daily Fine Multiplier", Double.class),
 
     AG_GRID_PAGE_NO("agGridPageNo_LibraryCommon_Int","AG Grid Page No", Integer.class),
     AG_GRID_DATA_ROW_COUNT("agGridDataRowCount_LibraryCommon_Int","AG Grid Data Row Count", Integer.class),
-    UPLOADED_FILE_PATH("uploadedFilePath_LibraryCommon_Text", "Uploaded File Path", String.class);
+    UPLOADED_FILE_PATH("uploadedFilePath_LibraryCommon_Text", "Uploaded File Path", String.class),
+
+
+    CHECK_IN_CHECK_OUT_REPORT_START_DATE("checkInCheckOutReportStartDate_LibraryCommon_Date", "Check In Check Out Report Start Date", Long.class),
+    CHECK_IN_CHECK_OUT_REPORT_END_DATE("checkInCheckOutReportEndDate_LibraryCommon_Date", "Check In Check Out Report End Date", Long.class);
+
 
     private final String property;
     private final String label;
