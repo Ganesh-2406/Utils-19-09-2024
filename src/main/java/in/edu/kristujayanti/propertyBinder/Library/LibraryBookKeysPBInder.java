@@ -66,7 +66,12 @@ public enum LibraryBookKeysPBInder implements KJUSYSPropertyBinder {
     ACCESSION_DUE_DATE("accessionDueDate_LibraryBook_Long","Accession Due Date", Long.class),
     ACCESSION_RETURN_DATE("accessionReturnDate_LibraryBook_Long","Accession Return Date", Long.class),
     ACCESSION_ISSUE_TYPE("accessionIssueType_LibraryBook_Text","Accession Issue Type", String.class),
-    ACCESSION_OVERDUE_FINE("accessionOverDueFine_LibraryBook_Double","Accession Over Due Fine", Double.class),;
+    ACCESSION_OVERDUE_FINE("accessionOverdueFine_LibraryBook_Double","Accession Over Due Fine", Double.class),
+    ACCESSION_OVERDUE_BILL_NO("accessionOverdueBillNo_LibraryBook_Text","Accession Over Due Bill No", String.class),
+    ACCESSION_OVERDUE_FINE_WAIVED("accessionOverdueFineWaived_LibraryBook_Double","Accession Over Due Fine Waived", Double.class),
+    ACCESSION_OVERDUE_FINE_AMOUNT_PAID("accessionOverdueFineAmountPaid_LibraryBook_Double","Accession Over Due Fine Amount Paid", Double.class),
+    ACCESSION_OVERDUE_FINE_WAIVED_REASON("accessionOverdueFineWaivedReason_LibraryBook_Text","Accession Over Due Fine Waived Reason", String.class),
+    ACCESSION_OVERDUE_FINE_COLLECTED_DATE("accessionOverdueFineCollectedDate_LibraryBook_Long","Accession Over Due Fine Collected Date", Long.class);
 
     private final String property;
     private final String label;
