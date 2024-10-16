@@ -49,7 +49,7 @@ public enum LibraryBookKeysPBInder implements KJUSYSPropertyBinder {
     ACCESSION_DISCOUNT("accessionDiscount_LibraryBook_Double", "Accession Discount", Double.class),
     ACCESSION_NET_COST_INR("accessionNetCostINR_LibraryBook_Double", "Accession Net Cost INR", Double.class),
     ACCESSION_CATEGORY("accessionCategory_LibraryBook_Text", "Accession Category", String.class),
-    ACCESSION_EDITION("accessionEdition_LibraryBook_Int", "Accession Edition", Integer.class),
+    ACCESSION_EDITION("accessionEdition_LibraryBook_Text", "Accession Edition", String.class),
     ACCESSION_LOCATION("accessionLocation_LibraryBook_Text", "Accession Location", String.class),
     ACCESSION_ENTRY_DATE("accessionEntryDate_LibraryBook_Date","Accession Entry Date", Long.class),
     ACCESSION_IN_LIBRARY("accessionInLibrary_LibraryBook_Bool","Accession In Library", Boolean.class),
@@ -71,7 +71,10 @@ public enum LibraryBookKeysPBInder implements KJUSYSPropertyBinder {
     ACCESSION_OVERDUE_FINE_WAIVED("accessionOverdueFineWaived_LibraryBook_Double","Accession Over Due Fine Waived", Double.class),
     ACCESSION_OVERDUE_FINE_AMOUNT_PAID("accessionOverdueFineAmountPaid_LibraryBook_Double","Accession Over Due Fine Amount Paid", Double.class),
     ACCESSION_OVERDUE_FINE_WAIVED_REASON("accessionOverdueFineWaivedReason_LibraryBook_Text","Accession Over Due Fine Waived Reason", String.class),
-    ACCESSION_OVERDUE_FINE_COLLECTED_DATE("accessionOverdueFineCollectedDate_LibraryBook_Long","Accession Over Due Fine Collected Date", Long.class);
+    ACCESSION_OVERDUE_FINE_COLLECTED_DATE("accessionOverdueFineCollectedDate_LibraryBook_Long","Accession Over Due Fine Collected Date", Long.class),
+    ACCESSION_HOME_BRANCH("accessionHomeBranch_LibraryBook_Text", "Accession Home Branch", String.class),
+    ACCESSION_CURRENT_BRANCH("accessionCurrentBranch_LibraryBook_Text", "Accession Current Branch", String.class);
+
 
     private final String property;
     private final String label;
